@@ -8,11 +8,11 @@ LabelBase.register(name="Roboto",
 
 
 class WeatherApp(App):
-
-    def build(self):
-        label = Label(text="Hello weather!",
-                      font_size=50)
-        return label
+    pass
+    # def build(self):
+    #     label = Label(text="Hello weather!",
+    #                   font_size=50)
+    #     return label
 
 
 if __name__ == "__main__":

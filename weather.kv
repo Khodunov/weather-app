@@ -1,0 +1,83 @@
+FloatLayout:
+    BoxLayout:
+        pos_hint: {'center_x': 0.5, 'top': 0.9}
+        orientation: 'vertical'
+        size_hint: 0.7, 0.2
+
+        Label:
+            text: "Санкт-Петербург"
+            font_size: 30
+        BoxLayout:
+            padding: self.width * 0.5 - 80, 0, self.width * 0.5 - 80, 0
+
+            Label:
+                text: "+20" + u"\N{DEGREE SIGN}"
+                font_size: 50
+            Image:
+                source: "weather-icons/1.png"
+                color: 100, 100, 100, 1
+
+        Label:
+            text: "Переменная облачность"
+            font_size: 20
+
+    BoxLayout:
+        orientation: "vertical"
+        pos_hint: {'center_x': 0.5, 'top': 0.6}
+        size_hint: 0.8, 0.5
+
+        BoxLayout:
+            Label:
+                text: "Пятница"
+                font_size: 30
+            Image:
+                source: "weather-icons/8.png"
+                color: 100, 100, 100, 1
+            Label:
+                text: "+2" + u"\N{DEGREE SIGN}" + "— +8" + u"\N{DEGREE SIGN}"
+                font_size: 30
+
+        BoxLayout:
+            Label:
+                text: "Суббота"
+                font_size: 30
+            Image:
+                source: "weather-icons/8.png"
+                color: 100, 100, 100, 1
+            Label:
+                text: "+2" + u"\N{DEGREE SIGN}" + "— +8" + u"\N{DEGREE SIGN}"
+                font_size: 30
+
+        BoxLayout:
+            Label:
+                text: "Воскресенье"
+                font_size: 30
+            Image:
+                source: "weather-icons/8.png"
+                color: 100, 100, 100, 1
+            Label:
+                text: "+2" + u"\N{DEGREE SIGN}" + "— +8" + u"\N{DEGREE SIGN}"
+                font_size: 30
+
+        BoxLayout:
+            Label:
+                text: "Понедельник"
+                font_size: 30
+            Image:
+                source: "weather-icons/8.png"
+                color: 100, 100, 100, 1
+            Label:
+                text: "+2" + u"\N{DEGREE SIGN}" + "— +8" + u"\N{DEGREE SIGN}"
+                font_size: 30
+
+        BoxLayout:
+            Label:
+                text: "Вторник"
+                font_size: 30
+            Image:
+                source: "weather-icons/8.png"
+                color: 100, 100, 100, 1
+            Label:
+                text: "+2" + u"\N{DEGREE SIGN}" + "— +8" + u"\N{DEGREE SIGN}"
+                font_size: 30
+
